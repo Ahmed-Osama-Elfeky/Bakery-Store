@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/*Start Section 1 */
+
+section#one{
+
+    /* background-color: grey; */
+    background-image:url(../images/drew-coffman-1872.jpg);
+    width: 100%;
+    height: 100vh;
+    /* margin: auto ; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+
+.section1 .icon{
+    display: inline-block;
+    width: 20%;
+    /* background-color: black; */
+}
+.section1 img{
+    width: 100%;
+}
+
+.section1 .nav{
+    /* background-color: aqua; */
+    display: inline-block;
+    text-align: end;
+    vertical-align: top;
+    width: 79%;
+    overflow: auto;
+    margin:auto;
+    
+    
+
+}
+.section1 .nav a{
+    color: white;
+}
+.section1 .text {
+    /* background-color:aqua ; */
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: white;
+    font-size: xx-large;
+    margin-top: 100px;
+    
+}
+.section1 .btn{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  
+    
+    padding-top: 50px;
+    
+}
+
+.section1 .btn button{
+    border-radius: 5px;
+        font-size: larger;
+    color: black;
+
+}
+.section1 .btn button a{
+    color: black;
+
+}
+
+/* end Section 2 */
+
+/* Strat Section 2 */
+
+.section2{
+    /* background-color: aqua; */
+    margin-top: 50px;
+}
+
+.section2 .img{
+    display: inline-block;
+    /* background-color: black; */
+    width: 40%;
+    margin-left: 50px;
+
+}
+.section2 img{
+    width: 100%;
+}
+
+.section2 .content {
+    width:50% ;
+    
+    display: inline-block;
+    /* background-color: brown; */
+    text-align: left;
+    vertical-align: top;
+    margin-left: 70px;
+    
+    
+}
+.section2 .content p{
+    color: grey;
+    display: inline-block;
+}
+.section2 .content{
+    /* background-color: lightblue; */
+}
+.section2 .content #text #head{
+    padding-top: 30px;
+    color: black;
+    font: 900;
+    font-size: xx-large;
+}
+.section2 .content #text p{
+    /* background-color: aqua ; */
+    padding: 30px 50px 30px 0 ;
+    
+}
+
+.section2 .icon{
+    /* background-color: aqua; */
+    /* margin-top: 40px; */
+}
+.section2 #icon{
+    /* background-color: black; */
+    display: inline-block;
+    width: 7%;
+    vertical-align: middle;
+    border:  solid lightgrey;
+    border-radius: 50%;
+}
+.section2 #icon img{
+    width: 100%;
+}
+.section2 #icont{
+    display: inline-block;
+    /* background-color:blue; */
+    width: 60%;
+    text-align: left;
+    vertical-align: middle;
+    color: grey;
+    
+}
+
+/* End Section 2 */
+/* Start Section 3 */
+
+.section3{
+    background-color:#f7f5fa;
+    margin: 100px auto;
+}
+.section3 .content{
+    /* background-color: lightblue; */
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    /* margin-top: 100px;
+    margin-left: 100px; */
+    margin: 100px 20px 100px 50px;
+    color: grey;
+
+}
+.section3 .content .head{
+    /* margin-top: 5%; */
+    font-size: xx-large;
+    color: black;
+    font:900;
+    
+}
+.section3 .content .p1{
+    margin-top: 5%;
+    font-size: large;
+
+}
+.section3 .content .p2{
+    /* background-color:blue; */
+    margin-top: 5%;
+    font-size: large;
+
+   
+}
+.section3 .image {
+    display: inline-block;
+    width: 40%;
+    margin: 25px;
+    
+    
+
+}
+.section3 .image img{
+    width: 100%;
+    /* display: block; */
+}
+
+
+.section4 .content{
+
+    width: 50%;
+    margin: auto;
+
+}
+.section4 #head{
+    margin-top: 5%;
+    font-size: xx-large;
+    text-align: center;
+
+}
+.section4 #text{
+    color: grey;
+}
+
+.section4 .images{
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+.section4 img{
+    width: 100%;
+}
+.section4 .head{
+    text-align: center;
+    font-size: x-large;
+    margin: 20px;
+}
+.section4 .clr{
+    clear: both;
+}
+/* End Section 4 */
+/* Start Section 5 */
+section#five{
+    background-color:#f7f5fa;
+ 
+    
+    
+}
+.section5 .content{
+    /* background-color: teal; */
+    width: 40%;
+    float: left;
+    vertical-align: top;
+    /* margin-top: 100px;
+    margin-left: 100px; */
+    margin: 100px 20px 100px 70px;
+    color: grey;
+}
+.section5 .head{
+    /* margin-top: 5%; */
+    font-size: xx-large;
+    color: black;
+    font:900;
+    
+
+}
+.section5 .text{
+    margin: 5% 0;
+    font-size: large;
+    color: grey;
+    text-align: left;
+}
+
+.section5 .image{
+    width: 7%;
+    border: solid 4px  #825B32;
+    border-radius: 50%;
+    float: left;
+    vertical-align: middle;
+    background-color: #825B32;
+
+
+}
+
+.section5 #icon img{
+    width: 100%;
+}
+.section5 #icon p .text {
+
+    margin-top: 5%;
+    font-size: large;
+    color: grey;
+}
+.section5 .icon{
+    /* background-color: teal; */
+}
+.section5 #icont{
+
+    /* background-color:blue; */
+    width: 60%;
+    text-align: left;
+    
+    color: grey;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    
+}
+
+.section5 .clr{
+    clear: both;
+}
+
+.section5 .location{
+    
+    width:20% ;
+    float: left;
+    /* background-color: #825B32; */
+    margin: 50px 50px 50px 100px ;
+}
+.section5 .location img{
+    width: 100%;
+    display: block;
+}
+.location {
+    position: relative;
+}
+
+.location img {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+    animation: pulse 2s infinite;
+}
+
+.section6{
+    background-color: #3C3D37;
+}
+.section6 .con1{
+    /* background-color: teal; */
+    width: 17%;
+    /* padding: auto; */
+    margin: 4%;
+    float: left;
+
+}
+.section6 .head{
+    color: white;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+.section6 #content1{
+    /* background-color: teal; */
+    
+}
+.section6 #content2{
+    /* background-color: lightcoral; */
+    padding-right: 10px;
+
+}
+.section6 #content3{
+    /* background-color: lightgreen; */
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.section6 #content4{
+    /* background-color: teal; */
+    margin-right: 20px;
+    padding-right: 70px;
+    margin-left: 15px;
+}
+
+.section6 #content1 .text1{
+
+width: 100%;
+/* background-color: black; */
+padding-top: 10px;
+padding-bottom: 20%;
+
+}
+.section6 .text{
+    color: grey;
+    
+    
+}
+.section6 .clr{
+    clear: both;
+}
+.section6 .con1 .image{
+
+    
+    width: 10%;
+    float:left ;
+    padding: 5px;
+    vertical-align: middle;
+
+}
+.section6 .con1 img{
+    width: 100%;
+}
+
+.section6 .demo{
+    /* background-color: black; */
+    border-bottom: grey 1px solid ;
+    
+}
+
+.section6 #content2{
+margin-left: 10px;
+margin-right: 20px;
+width: 22%;
+}
+.section6 .clr{
+    clear: both;
+}
+.section6 #content2 .text{
+    /* background-color: black; */
+    padding: 10px;
+    
+    
+}
+.section6 #content2 #txt{
+    /* background-color: black; */
+    width: 100%;
+    
+}
+.section6 #content3 .text{
+    
+    padding-top: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 6px;
+    padding-bottom: 18px;
+    
+}
+
+.section6 #content3 #txt{
+    /* background-color: black; */
+    width: 100%;
+
+}
+
+.section6 #content4 .image{
+
+background-image: url(../images/contact-details-map.png);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height:50vh ;
+background-size: 100%;
+opacity: .3;
+
+
+
+
+
+}
+.section6 #icon{
+    /* background-color: aqua; */
+    
+    
+}
+.section6 .icon{
+    /* background-color: #825B32; */
+    padding-bottom: 5px;
+    width: 40px;
+    float: left;
+    border-bottom: grey 1px solid ;
+    
+}
+.section6 .icon #loc{
+    padding-bottom: 30px;}
+
+.section6 #content4 img{
+    width: 100%;
+    
+}
+.section6 #icont{
+
+    /* background-color: black; */
+    padding: 10px;
+    color: #f7f5fa;
+    opacity: 1;  
+}
+
+footer.section7{
+    background-color: #2B2B2B;
+    /* margin: 10%; */
+    float: left;
+    padding: 100px;
+    
+}
+.section7 .image{
+    /* background-color: teal; */
+    width: 30%;
+    margin: auto;
+    
+    
+
+}
+.section7 img{
+    width: 100%;
+    
+
+}
+.section7 .image p{
+    text-align: center;
+    color: grey;
+    /* background-color: red; */
+    margin-top: 30px;
+
+}
+.section7.clr{
+    clear: both;
+}
+.section7 .web{
+    width: 7%;
+    float: left;
+    
+    border: solid 4px   #3C3D37;
+    border-radius: 50%;
+    margin: 30px 5px;
+    
+    background-color:  #3C3D37;
+
+}
+.section7 .web.face{
+    margin-left: 80px;
+}
+
+
+
+
